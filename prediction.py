@@ -1,6 +1,5 @@
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
-from werkzeug.utils import secure_filename
 import cv2
 import numpy as np
 
