@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 names = '''airplane automobile bird cat deer dog frog horse ship truck'''.split()
-model = load_model('models/cifaar_10.h5')
+model = load_model('cifaar_10.h5')
 
 def prediction(IMG_PATH):
     img = cv2.imread(IMG_PATH)
