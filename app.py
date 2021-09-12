@@ -19,7 +19,7 @@ def Req():
 
     resp = prediction("img.jpg")
 
-    text = "it is a <b>"+resp['label']
+    text = "The image is of a "+resp['label']
 
     return render_template("prediction.html",prediction=text)
 if __name__=='__main__':
